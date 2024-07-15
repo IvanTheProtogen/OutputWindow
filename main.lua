@@ -115,13 +115,13 @@ for v=(#OutputLogs-14),#OutputLogs do
 
 local MessageType = ""
 
-if v["messageType"] == Enum.MessageType.MessageOutput then
+if OutputLogs[v]["messageType"] == Enum.MessageType.MessageOutput then
 MessageType = "OUTPUT"
-elseif v["messageType"] == Enum.MessageType.MessageWarning then
+elseif OutputLogs[v]["messageType"] == Enum.MessageType.MessageWarning then
 MessageType = "WARNING"
-elseif v["messageType"] == Enum.MessageType.MessageError then
+elseif OutputLogs[v]["messageType"] == Enum.MessageType.MessageError then
 MessageType = "ERROR"
-elseif v["messageType"] == Enum.MessageType.MessageInfo then
+elseif OutputLogs[v]["messageType"] == Enum.MessageType.MessageInfo then
 MessageType = "INFORMATION"
 else
 MessageType = "UNKNOWN"
