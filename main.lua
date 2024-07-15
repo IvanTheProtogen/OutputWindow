@@ -111,7 +111,7 @@ end
 
 else
 
-for v=(#OutputLogs-12),#OutputLogs do
+for v=(#OutputLogs-14),#OutputLogs do
 
 local MessageType = ""
 
