@@ -127,7 +127,7 @@ else
 MessageType = "UNKNOWN"
 end
 
-ResultOutput = ResultOutput.."["..MessageType.."] "..v["message"].."\n"
+ResultOutput = ResultOutput.."["..MessageType.."] "..OutputLogs[v]["message"].."\n"
 
 end
 
